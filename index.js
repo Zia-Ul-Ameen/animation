@@ -100,7 +100,7 @@ const animations = () => {
 
     gsap.to(text2, {
       y: -500,
-      opacity: 1,
+      opacity: 0,
       stagger: 0.5,
       scrollTrigger: {
         trigger: ".cloud2",

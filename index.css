@@ -18,7 +18,7 @@
     z-index: 10;
 }
 #navbar i{
-    font-size: clamp(1.3rem, 2vw, 2.5rem);
+    font-size: clamp(2rem, 2vw, 2.5rem);
     margin-right: 7vw;
     padding: 1rem 0;
 }
@@ -45,7 +45,8 @@
 .text1{
     font-family: sans-serif;
     display: inline-block;
-    font-size:  clamp(2rem, 3vw, 4rem);
+    font-size:  clamp(2.5rem, 3vw, 4rem);
+    font-weight: 500;
     transform:  translateY(100px);
     opacity: 0;
 }
@@ -83,8 +84,8 @@
     overflow-x: hidden;
 }
 .rocketImg{
-    width: 105px;
-    height: 45px;
+    width: 160px;
+    height: 80px;
     transform: translateX(-150px);
 }
 
@@ -136,8 +137,8 @@
     opacity:0;
 }
 .compass img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 .sticky35{
     position: sticky;
@@ -153,7 +154,7 @@
     overflow:hidden;
 }
 .text2{
-    font-size: clamp(4.5rem,5vw, 6rem);
+    font-size: clamp(5rem,5vw, 6rem);
     opacity: 0;
     transform: translateY(-100px);
 }
